@@ -1,42 +1,43 @@
-
 # OverTheWire Bandit Write-ups
 
-I completed the OverTheWire Bandit wargame to build a strong foundation in Linux and develop problem-solving skills relevant to cybersecurity.
+Completed all 34 levels of the OverTheWire Bandit wargame as part of building hands-on Linux and cybersecurity fundamentals.
 
-This repository focuses on understanding concepts rather than just solving levels.
+Write-ups focus on **understanding concepts over copying commands** — each entry explains the *why* behind the solution, not just the *what*.
+
+Passwords are intentionally excluded.
 
 ---
 
-## 📌 What this repo contains
+## 🛠️ Skills Covered
 
-- Concept-based write-ups (not just commands)
-- Explanations of why solutions work
-- Key takeaways from each level
-
-Passwords are intentionally not included.
+`SSH` · `file permissions` · `find / grep` · `base64 / ROT13 / hex encoding` · `compression (gzip, bzip2, tar)` · `netcat` · `OpenSSL` · `cron jobs` · `setuid binaries` · `shell escapes` · `git internals`
 
 ---
 
 ## 📂 Structure
 
-- 01-basics-navigation.md (Level 0–5)
-- 02-file-discovery.md (Level 6–10)
-- 03-encoding-compression.md (Level 11–15)
-- 04-authentication-network.md (Level 16–20)
-- 05-privilege-escalation.md (Level 21–26)
-- 06-advanced-tricks.md (Level 27–34)
+| File | Levels | Topics |
+|------|--------|--------|
+| [01-basics-navigation.md](01-basics-navigation.md) | 0–5 | SSH, ls, cat, file types, spaces in filenames |
+| [02-file-discovery.md](02-file-discovery.md) | 6–10 | find, grep, permissions, hidden files |
+| [03-encoding-compression.md](03-encoding-compression.md) | 11–15 | base64, ROT13, hex, gzip, bzip2, tar |
+| [04-authentication-network.md](04-authentication-network.md) | 16–20 | netcat, OpenSSL, port scanning, SSH keys |
+| [05-privilege-escalation.md](05-privilege-escalation.md) | 21–26 | cron, setuid, shell escapes, sudo |
+| [06-advanced-tricks.md](06-advanced-tricks.md) | 27–34 | git (log, stash, tags, branches), dash shell |
 
 ---
 
-## 🧠 Key Takeaways
+## 🧠 Approach
 
-- Observation > brute force  
-- Small commands become powerful when combined  
-- Understanding systems matters more than memorizing  
+Each write-up answers three questions:
+- What is the system doing here?
+- Why does this command/technique work?
+- What would this look like in a real environment?
 
 ---
 
-## 🚀 Next Steps
+## 🚀 What's Next
 
-- OverTheWire Natas  
+- OverTheWire Natas (web security fundamentals)
 - PortSwigger Web Security Academy
+- TryHackMe SOC Level 1 path
